@@ -39,7 +39,8 @@ Basic I/O (cin, cout)
 
  Can pattern programs be solved using recursion?
 ```
-Yes, but it's uncommon. Recursion can be used to print patterns, though it's usually less efficient and harder to understand than loops.
+Yes, but it's uncommon. Recursion can be used to print patterns, though it's usually less
+efficient and harder to understand than loops.
 ```
 
 What is a loop in C++?
