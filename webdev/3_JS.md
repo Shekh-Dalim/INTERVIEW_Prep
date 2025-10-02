@@ -36,9 +36,6 @@ Falsy: Values that convert to false in a Boolean context.
 ```
  A shorter syntax for writing functions:
 
-js
-Copy
-Edit
 const add = (a, b) => a + b;
 ```
 8: What is a callback function?
