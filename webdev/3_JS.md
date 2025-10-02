@@ -11,9 +11,9 @@ Non-Primitive: object, array, function
 ```
 🟢 What is the difference between var, let, and const?
 ```
-var: Function-scoped, can be redeclared
+var: Function-scoped, can be redeclared , Reassignment
 
-let: Block-scoped, cannot be redeclared
+let: Block-scoped, cannot be redeclared bu we can Reassignment
 
 const: Block-scoped, cannot be reassigned or redeclared
 ```
