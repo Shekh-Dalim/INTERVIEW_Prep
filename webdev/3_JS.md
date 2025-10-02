@@ -30,7 +30,7 @@ Falsy: Values that convert to false in a Boolean context.
 ```
 6: What is a function?
 ```
-A reusable block of code that performs a specific task.
+"A function is a reusable block of code that performs a specific task and can optionally return a value."
 ```
 7: What are arrow functions?
 ```
