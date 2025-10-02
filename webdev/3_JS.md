@@ -19,7 +19,7 @@ const: Block-scoped, cannot be reassigned or redeclared
 ```
 4: What is typeof in JavaScript?
 ```
- Returns the data type of a variable.
+ typeof is a JavaScript operator that tells you the data type of a variable or value.
 ```
 5: What are truthy and falsy values?
 ```
