@@ -1,6 +1,7 @@
 🟢 What is JavaScript?
 ```
-Ans: JavaScript is a lightweight, interpreted programming language primarily used to make web pages interactive.
+Ans: JavaScript is a programming language mainly used to make web pages interactive.
+For example: animations, form validation, dynamic content.
 ```
 🟢 What are the data types in JavaScript?
 ```
