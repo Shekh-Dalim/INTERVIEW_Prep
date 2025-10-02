@@ -23,8 +23,10 @@ const: Block-scoped, cannot be reassigned or redeclared
 ```
 5: What are truthy and falsy values?
 ```
+In JavaScript, every value is either “truthy” or “falsy” when evaluated in a Boolean context (like if, while, or &&, || operations).
 
-Falsy: false, 0, "", null, undefined, NaN
+Truthy: Values that convert to true in a Boolean context.
+Falsy: Values that convert to false in a Boolean context.
 ```
 6: What is a function?
 ```
