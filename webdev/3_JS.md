@@ -44,12 +44,14 @@ Ans: A function passed as an argument to another function to be executed later.
 ```
 9: What is the difference between function declaration and function expression?
 ```
-Declaration: Hoisted
+Declaration:          Expression:
 
-Expression: Not hoisted
+function name() {}    const name = function() {}
+✅Hoisted               ❌Not hoisted  
+❌ Needs a name       ✅ Can be anonymous
 
-function greet() {} // Declaration
-const greet = function() {}; // Expression
+Function declarations are hoisted and available throughout their scope, while function expressions are not hoisted and only work after they are defined.
+
 ```
 10: What is lexical scope?
 ```
