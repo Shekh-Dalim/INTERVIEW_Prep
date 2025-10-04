@@ -1,6 +1,5 @@
 video 1
 ```
-
 1. Getting Started
     Set up IntelliJ IDEA for a Spring Boot Project
     Internal working of Spring Boot
@@ -45,8 +44,8 @@ to overcome this problem we use springBoot .
 
 
 video 2
-```
 
+```
 Q: What is annotation : Anotation is a meta data which reduce the boiler plate. (Symbol is @)
 Q: What is bin: A Bean is just a Java object that Spring manages for you.
 Q: What is dependency injection: the objects your class needs to work.
