@@ -1,1 +1,103 @@
+video 1
+```
+
+1. Getting Started
+    Set up IntelliJ IDEA for a Spring Boot Project
+    Internal working of Spring Boot
+    AutoConfiguration
+
+2. Core Spring Concepts
+    Bean and Dependency Injection (DI)
+    Controller, Service, RestController
+    Spring MVC Architecture
+    Internal working of DispatcherServlet
+
+3. Building REST APIs
+    REST API Request Validation
+
+4. Data Persistence (Spring Data JPA & Hibernate)
+    Introduction to Spring Data JPA and Hibernate
+    Entity lifecycle with Persistence Context
+    Query using Spring Data JPA
+    JPQL Query Methods
+    Pagination
+    Projection
+
+5. Advanced JPA Mappings & Transactions
+    JPA Relationships:
+    One-to-One (1:1)
+    One-to-Many (1:M)
+    Many-to-Many (N:M)
+    Cascade Types
+    FetchType (Lazy vs Eager Loading)
+    Orphan Removal
+    Transactional
+
+why spring boot need to know ?
+
+3 major problem in java program which are: 
+Tight Coupling
+Hard to test
+Scattered Object Creation
+
+to overcome this problem we use springBoot .
+```
+
+
+video 2
+```
+
+Q: What is annotation : Anotation is a meta data which reduce the boiler plate. (Symbol is @)
+Q: What is bin: A Bean is just a Java object that Spring manages for you.
+Q: What is dependency injection: the objects your class needs to work.
+Q: Application Context: branch of Beans 
+Q: what the use of ioc container 
+Q: which class check by ioc container ?
+Q: Application context
+Q: Component Scanning
+Q: AutoConfiguration
+
+Q: What happens when you click run a Spring Boot Application? Important for interview 
+```
+1. JVM starts and the main() method is executed.
+
+2. SpringApplication.run(MyApp.class, args) is called.
+
+3. Spring Boot detects the @SpringBootApplication annotation on MyApp.class, which includes:
+
+@SpringBootConfiguration → marks the class as a configuration class.
+
+@ComponentScan → scans the current package and sub-packages for components.
+
+@EnableAutoConfiguration → loads auto-configurations from spring.factories.
+
+4. A SpringApplication object is created which:
+
+Sets up the ApplicationContext.
+Prepares the Environment.
+Registers Listeners and Initializers.
+
+5. ApplicationContext is created.
+
+6. Environment is prepared — loads application.properties, arguments, and profiles.
+
+7. Spring scans for Beans and registers them using @ComponentScan and AutoConfiguration (e.g., DataSource, WebServer).
+
+8. ApplicationContext is refreshed:
+
+Beans are created.
+Dependencies are autowired.
+Lifecycle methods are executed.
+
+9. The embedded web server (like Tomcat) is started.
+
+10. All CommandLineRunner or ApplicationRunner beans are executed.
+
+11. The application is fully started and ready to handle requests.
+
+✅ Short summary line for interview:
+“When we run a Spring Boot app, SpringApplication sets up the environment, creates and refreshes the ApplicationContext, auto-configures beans, starts the embedded server, and runs any startup runners.”
+
+```
+```
 
