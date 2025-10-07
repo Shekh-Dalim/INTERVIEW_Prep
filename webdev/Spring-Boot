@@ -1,4 +1,4 @@
-video 1
+video 1  (HOW TO MASTER SPRING BOOT)----------------------------------------------------------------------
 ```
 1. Getting Started
     Set up IntelliJ IDEA for a Spring Boot Project
@@ -43,7 +43,7 @@ to overcome this problem we use springBoot .
 ```
 
 
-video 2
+video 2 (CREATE A SPRING BOOT PROJECT IN INTELLIJ IDEA )----------------------------------------------------------------------
 
 ```
 Q: What is annotation : Anotation is a meta data which reduce the boiler plate. (Symbol is @)
@@ -98,5 +98,11 @@ Lifecycle methods are executed.
 “When we run a Spring Boot app, SpringApplication sets up the environment, creates and refreshes the ApplicationContext, auto-configures beans, starts the embedded server, and runs any startup runners.”
 
 ```
-```
 
+VIDEO-4 (BUILD REST API )----------------------------------------------------------------------
+
+TOMCAT:-It helps your Spring Boot or Java web app run in a browser (like localhost:8080)
+
+Three layer architecture :- 
+Presentation Layer (Controller Layer)  → Service Layer (Business Logic Layer) → Repository Layer (Data Access Layer)
+(Request                               →Process                               → Store/Fetch Data)
