@@ -104,5 +104,5 @@ VIDEO-4 (BUILD REST API )-------------------------------------------------------
 TOMCAT:-It helps your Spring Boot or Java web app run in a browser (like localhost:8080)
 
 Three layer architecture :- 
-Presentation Layer (Controller Layer)  → Service Layer (Business Logic Layer) → Repository Layer (Data Access Layer)
+Presentation Layer (Controller Layer)  → Service Layer (Business Logic Layer) → Persistence Layer (Data Access Layer)
 (Request                               →Process                               → Store/Fetch Data)
